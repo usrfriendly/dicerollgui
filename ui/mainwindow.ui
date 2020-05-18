@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>251</width>
-    <height>311</height>
+    <width>279</width>
+    <height>271</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -29,6 +29,19 @@
       </property>
      </widget>
     </item>
+    <item row="0" column="2">
+     <widget class="QLabel" name="d4Roll">
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
     <item row="1" column="0">
      <widget class="QLabel" name="label_2">
       <property name="text">
@@ -40,6 +53,19 @@
      <widget class="QSpinBox" name="d6SpinBox">
       <property name="minimum">
        <number>1</number>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QLabel" name="d6Roll">
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string/>
       </property>
      </widget>
     </item>
@@ -57,6 +83,19 @@
       </property>
      </widget>
     </item>
+    <item row="2" column="2">
+     <widget class="QLabel" name="d8Roll">
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
     <item row="3" column="0">
      <widget class="QLabel" name="label_4">
       <property name="text">
@@ -68,6 +107,35 @@
      <widget class="QSpinBox" name="d10SpinBox">
       <property name="minimum">
        <number>1</number>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QLabel" name="d10Roll">
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="3">
+     <widget class="QLabel" name="d10PRoll">
+      <property name="toolTip">
+       <string>Percentage Roll</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <property name="text">
+       <string/>
       </property>
      </widget>
     </item>
@@ -85,6 +153,19 @@
       </property>
      </widget>
     </item>
+    <item row="4" column="2">
+     <widget class="QLabel" name="d12Roll">
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
     <item row="5" column="0">
      <widget class="QLabel" name="label_6">
       <property name="text">
@@ -99,109 +180,20 @@
       </property>
      </widget>
     </item>
-    <item row="6" column="0">
-     <widget class="QLabel" name="d4Label">
-      <property name="text">
-       <string>d4</string>
-      </property>
-     </widget>
-    </item>
-    <item row="6" column="1">
-     <widget class="QLabel" name="d4Roll">
-      <property name="autoFillBackground">
-       <bool>false</bool>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-    <item row="7" column="0">
-     <widget class="QLabel" name="d6Label">
-      <property name="text">
-       <string>d6</string>
-      </property>
-     </widget>
-    </item>
-    <item row="7" column="1">
-     <widget class="QLabel" name="d6Roll">
-      <property name="autoFillBackground">
-       <bool>false</bool>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-    <item row="8" column="0">
-     <widget class="QLabel" name="d8Label">
-      <property name="text">
-       <string>d8</string>
-      </property>
-     </widget>
-    </item>
-    <item row="8" column="1">
-     <widget class="QLabel" name="d8Roll">
-      <property name="autoFillBackground">
-       <bool>false</bool>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-    <item row="9" column="0">
-     <widget class="QLabel" name="d10Label">
-      <property name="text">
-       <string>d10</string>
-      </property>
-     </widget>
-    </item>
-    <item row="9" column="1">
-     <widget class="QLabel" name="d10Roll">
-      <property name="autoFillBackground">
-       <bool>false</bool>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-    <item row="10" column="0">
-     <widget class="QLabel" name="d12Label">
-      <property name="text">
-       <string>d12</string>
-      </property>
-     </widget>
-    </item>
-    <item row="10" column="1">
-     <widget class="QLabel" name="d12Roll">
-      <property name="autoFillBackground">
-       <bool>false</bool>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-    <item row="11" column="0">
-     <widget class="QLabel" name="d12Label_2">
-      <property name="text">
-       <string>d20</string>
-      </property>
-     </widget>
-    </item>
-    <item row="11" column="1">
+    <item row="5" column="2">
      <widget class="QLabel" name="d20Roll">
       <property name="autoFillBackground">
        <bool>false</bool>
       </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
       <property name="text">
        <string/>
       </property>
      </widget>
     </item>
-    <item row="12" column="1">
+    <item row="6" column="1">
      <widget class="QPushButton" name="rollButton">
       <property name="text">
        <string>Roll</string>

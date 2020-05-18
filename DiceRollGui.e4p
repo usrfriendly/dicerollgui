@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project DiceRollGui -->
-<!-- Saved: 2020-05-17, 22:40:26 -->
+<!-- Saved: 2020-05-17, 23:58:29 -->
 <!-- Copyright (C) 2020 Arin, arinlares@gmail.com -->
 <Project version="5.1">
   <Language>en_US</Language>
@@ -26,6 +26,7 @@
   </Forms>
   <Others>
     <Other>.gitignore</Other>
+    <Other>readme.md</Other>
   </Others>
   <MainScript>dicerollgui.py</MainScript>
   <Vcs>

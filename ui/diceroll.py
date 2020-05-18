@@ -25,4 +25,12 @@ class Roll:
             i += 1
        
         return value
+    
+class PRoll:
+    def __init__(self,diceCount, faceCount):
+        diceCount = diceCount
+        faceCount = faceCount
+    def DoPRoll(diceCount, faceCount):
+        roll = random.randint(0,faceCount)
+        return roll
 

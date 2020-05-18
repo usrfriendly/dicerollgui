@@ -9,7 +9,7 @@ from PyQt5.QtWidgets import QMainWindow
 
 from .Ui_mainwindow import Ui_MainWindow
 
-from ui.diceroll import Die, Roll
+from ui.diceroll import  Roll, PRoll
 
 
 class MainWindow(QMainWindow, Ui_MainWindow):
@@ -37,5 +37,6 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.d6Roll.setText(str(Roll.DoRolls(self.d6SpinBox.value(), 6)))
         self.d8Roll.setText(str(Roll.DoRolls(self.d8SpinBox.value(), 8)))
         self.d10Roll.setText(str(Roll.DoRolls(self.d10SpinBox.value(), 10)))
+        self.d10PRoll.setText(str(PRoll.DoPRoll(1,9))+str(PRoll.DoPRoll(1, 9))+"%")
         self.d12Roll.setText(str(Roll.DoRolls(self.d12SpinBox.value(), 12)))
         self.d20Roll.setText(str(Roll.DoRolls(self.d20SpinBox.value(), 20)))
